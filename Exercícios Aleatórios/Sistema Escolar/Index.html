@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administração Escolar</title>
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="shortcut icon" href="ADM.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <h1>Informações de Pessoas no Sistema</h1>
+
+        <div id="form">
+            <h2>Adicionar Pessoa</h2>
+            <form id="personForm">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" required>
+
+                <label for="idade">Idade:</label>
+                <input type="number" id="idade" required>
+
+                <label for="endereco">Endereço:</label>
+                <input type="text" id="endereco" required>
+
+                <label for="tipo">Tipo:</label>
+                <select id="tipo" required>
+                    <option value="Aluno">Aluno</option>
+                    <option value="Professor">Professor</option>
+                    <option value="Funcionario">Funcionário</option>
+                </select>
+
+                <label for="infoExtra">Informação Extra:</label>
+                <input type="text" id="infoExtra" placeholder="Matrícula, Disciplina ou Cargo" required>
+
+                <button type="submit">Adicionar</button>
+            </form>
+        </div>
+
+        <div id="message"></div>
+
+        <div class="person-info" id="pessoasInfo"></div>
+        
+    </div>
+    <script src="Scripts.js"></script>
+</body>
+</html>

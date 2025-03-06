@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consciência Silvestre</title>
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="shortcut icon" href="Logo.png" type="image/x-icon">
+</head>
+<body onload="carregarPagina()">
+    <div class="container">
+        <h1>Importância da Preservação de Animais Silvestres</h1>
+        <p>Preservar a fauna silvestre é essencial para a manutenção do equilíbrio ecológico e para garantir que as gerações futuras possam desfrutar de nossa biodiversidade. Vamos conhecer alguns exemplos de animais que estão ameaçados de extinção e como você pode contribuir para a preservação deles.</p>
+
+        <button onclick="alertarImportancia()">Entenda a Importância da Preservação</button>
+
+        <h2>Selecione um animal em extinção</h2>
+        <select id="animalSelect" onchange="mostrarAnimalSelecionado()">
+            <option value="">Escolha um animal...</option>
+            <option value="1">Tigre-de-Bengala</option>
+            <option value="2">Elefante Asiático</option>
+            <option value="3">Rinoceronte-branco</option>
+            <option value="4">Gorila-das-montanhas</option>
+            <option value="5">Arara-azul</option>
+        </select>
+
+        <div id="animalDescricao" class="animal-info">
+            <img id="imagem" src="" alt="" style="max-width: 100%; display: none; margin-top: 10px;">
+        </div>        
+
+        <h2>Exemplos de Animais em Extinção</h2>
+        <ul>
+            <li><b>Tigre-de-Bengala</b>: Estima-se que restem apenas 2.500 indivíduos na natureza. A caça ilegal e a perda de habitat são as principais ameaças.</li>
+            <li><b>Elefante Asiático</b>: Aproximadamente 50.000 elefantes asiáticos sobrevivem em áreas fragmentadas da Ásia. A caça e a destruição de seu habitat são as maiores ameaças.</li>
+            <li><b>Rinoceronte-branco</b>: A população de rinocerontes brancos caiu drasticamente devido à caça ilegal para obtenção de marfim. Atualmente, existem menos de 20.000 indivíduos na natureza.</li>
+            <li><b>Gorila-das-montanhas</b>: Essa espécie está em perigo crítico, com menos de 1.000 gorilas sobrevivendo na natureza. A caça e a perda de habitat são as maiores ameaças.</li>
+            <li><b>Arara-azul</b>: Esta ave está em grave risco devido à destruição de seu habitat e ao tráfico ilegal de animais. Apenas cerca de 1.000 araras-azuis ainda existem no Brasil.</li>
+        </ul>
+    </div>
+    <script src="Scripts.js"></script>
+</body>
+</html>

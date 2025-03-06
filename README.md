@@ -1,0 +1,1 @@
+Neste repositório colocarei os exercícios e atividades desenvolvidos nas aulas de Programação Web II (PWII).
