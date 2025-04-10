@@ -9,3 +9,8 @@ Vc pode reproduzir o que fizemos nesse vídeo abaixo, ou fazer isso em um projet
 Bom estudos!!!
 
 https://odysee.com/@AulasGravadas:0/requisicao-ajax-usando-api-fetch:1?lid=afa3e4a1c6ee5b7439d33282de6e1ac829951dd9
+
+
+Para acessar o projeto, cole a pasta no local host do xampp e acesse em seu navegador:
+
+http://localhost/Atividade%2003/Index.php
